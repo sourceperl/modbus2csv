@@ -1,0 +1,2 @@
+schedule >= 0.3.2
+pyModbusTCP >= 0.0.13
