@@ -42,7 +42,7 @@ def csv_job():
         a_stats = [cycle_count, good_count, error_count]
         a_data = list(regs)
     # add to CSV
-    with open('/var/ramdisk/data.csv', 'a') as f:
+    with open('/media/ramdisk/data.csv', 'a') as f:
         w = csv.writer(f)
         w.writerow([str_datetime] + a_stats + a_data)
 
